@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script type="js/bootstrap.bundle.min.js"></script>
+    
+    <!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--JQuery-->  
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>  
+    <!--Floating WhatsApp css-->  
+    <link rel="stylesheet" href="floating-wpp.min.css">  
+    <!--Floating WhatsApp javascript-->  
+    <script type="text/javascript" src="floating-wpp.min.js"></script>
+
+    <title>Aperturas - Apiciu's Consultora Gastronómica</title>
+    <link rel="icon" href="img/Logo-grande.ico">
+    <meta name="keywords"  content="Consultora, Mendoza, Gastronomia, Apicius,Apiciu's,administracion gastronomica, franquicia, costos en gastronomia,chefs a domicilio">
+    <meta name="description" content="Apiciu's ofrece una amplia oferta de servicios desde 
+    iniciarte en  tu sueño de negocio hasta franquiciar el mismo, o
+    bien nuestros take a way en la comodidad de tu espacio.">
+</head>
+<body class= "bgColor fuente">
+    <header >
+        <a href="index.html">
+            <img src="img/Logo-grande.png" width="75" alt="logo"class= "imgRound"> <p class="inline letraTitulo negrita" id ="titulo" >APICIU'S CONSULTORA GASTRONÓMICA</p>
+        </a>    
+        <nav class="navbar navbar-light bg-faded justify-content-between flex-nowrap flex-row border bg-transparent">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav flex-row float-right">
+                    <li class="nav-item"><a class="nav-link pr-3 text-white" href="quienessomos.html">Quienes Somos</a></li>
+                    <li class="nav-item"><a class="nav-link pr-3 text-secondary" href="aperturas.html">Aperturas</a></li>
+                    <li class="nav-item"><a class="nav-link pr-3 text-white" href="consultoria.html">Consultoría</a></li>
+                    <li class="nav-item"><a class="nav-link pr-3 text-white" href="franquicias.html">Franquicias</a></li>
+                    <li class="nav-item"><a class="nav-link pr-3 text-white" href="takeaway.html">Quedate En Casa</a></li>
+                </ul> <a href="/" class="navbar-brand float-left text-white fs-11 text-center"> </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col col-md-6 alinearIzq">
+                <h4>Búsqueda de local</h4>
+                <h4>Imágen corporativa</h4>
+                <h4>Desarrollo de página web</h4>
+                <h4>Proyección económica recupero de inversión y viabilidad del proyecto</h4>
+                <h4>Detalles técnicos/equipamiento</h4>
+                <h4>Armado de propuesta gastronómica</h4>
+                <h4>Recetario y costo de platos</h4>
+                <h4>Manuales de funciones</h4>
+                <h4>Selección y acuerdo con proveedores</h4>
+                <h4>Puesta en marcha y ajustes</h4>
+                <h4>Selección de personal y capacitación</h4>
+                <h4>Armado de manuales y procesos operativos y administrativos</h4>
+                <h4>Layout del local y detalles técnicos de equipamiento </h4>
+            </div>
+            <div class="col col-md-6">
+                <img src="img/persona-trabajando.jpeg" alt="plato" width= "750px" class = "float-left">
+            </div>
+        </div>
+
+        <!--Div where the WhatsApp will be rendered-->  
+        <div id="WAButton" class="letraWA">
+            <script type="text/javascript">  
+                $(function () {
+                    $('#WAButton').floatingWhatsApp({
+                        phone: '542613395013', //WhatsApp Business phone number
+                        headerTitle: 'Chateá con nosotros en WhatsApp!', //Popup Title
+                        popupMessage: 'Hola ¿Cómo podemos ayudarte?', //Popup Message
+                        showPopup: true, //Enables popup display
+                        buttonImage: '<img src="img/whatsapp-icon.jpg" />', //Butte
+                        //headerColor: 'crimson', //Custom header color
+                        //backgroundColor: 'crimson', //Custom background button color
+                        position: "right" //Position: left | right
+         
+                    });
+                });
+            </script>
+         </div>  
+    </main>
+    <footer>
+        <h4><a href="mailto:apiciusconsultora@gmail.com">apiciusconsultora@gmail.com</a></h4>
+    </footer>
+</body>
+</html>

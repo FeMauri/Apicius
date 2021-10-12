@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display&display=swap');
+
+
+.inline {
+    display: inline-block;
+}
+
+
+#titulo{
+    color:rgb(241, 185, 41);
+}
+
+.letraTitulo{
+    font-size: 40px;
+}
+
+.fuente
+
+{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.tamanoTexto{
+    font-size: 24px;
+}
+
+
+.letraWA{
+    color: black;
+}
+
+.bgColor{
+    background-color:black;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    color : white;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.alinearImgDer{
+    align-items: right;
+}
+.alinearDer{
+    text-align: right;
+}
+
+.alinearCentro{
+    text-align: justify;
+}
+.alinearAlCentro{
+    text-align: center;
+}
+.imgRound{
+    border-radius: 50%;
+}
+
+.paddingImg{
+    margin: 0px 0px 0px 20px;
+}
+
+.paddingImgDer{
+    margin: 0px 20px 0px 0px;
+}
+
+.footerFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+@media only screen and (min-width: 768px) {
+    .bgImage{
+        background-image: url("../img/fondo-index.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: dimgray;  
+    }
+    .paddingIndex {
+            padding: 10% 0% 0% 43%;
+      }
+
+    .marginBetween{
+        margin: 0% 0% 0% 25%;
+    }
+    .paddingTexto{
+        padding:0% 10% 0% 10%; 
+    }
+    #correte{
+        margin-left: 1300px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bgImage{
+        background-image: url("../img/fondo-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: dimgray;  
+    }
+    .paddingIndex {
+            padding: 10% 0% 5% 33%;
+      }
+    .marginBetween{
+        margin: 0% 0% 0% 0%;
+    }
+    .paddingTexto{
+        padding:0% 10% 0% 10%; 
+    }
+    #correte{
+        margin-left: 600px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .bgImage{
+        background-image: url("../img/fondo-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: dimgray;  
+    }
+    .paddingIndex {
+            padding: 35% 0% 40% 20%;
+      }
+      .marginBetween{
+        margin: 15% 0% 0% 0%;
+    }
+    .paddingTexto{
+        padding:0% 0% 0% 0%; 
+    }
+    #correte{
+        margin-left: 288px;
+    }
+}
+
